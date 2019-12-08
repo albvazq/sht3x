@@ -8,9 +8,8 @@ extern "C" {
 #endif
 
 #define SHT3x_ADDR 0x44
-#define SHT3x_SS 0x2C
-#define SHT3x_HIGH 0x06
-#define SHT3x_READ 0x00
+#define SHT3x_MSB 0x2C
+#define SHT3x_LSB 0x10
 
 typedef struct {
   float temperature;
