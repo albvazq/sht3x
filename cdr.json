@@ -1,0 +1,10 @@
+{
+  "name": "sht3x",
+  "entry": "src/sht3x.c",
+  "description": "",
+  "libs": {
+    "soft_i2c": {
+      "repo": "git@github.com:albvazq/soft_i2c.git"
+    }
+  }
+}
