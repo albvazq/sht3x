@@ -11,7 +11,7 @@ void readSensor(SHT3X* s) {
   i2c_send_byte(*getBus(), SHT3x_ADDR << 1 | I2C_WRITE);
   i2c_send_byte(*getBus(), SHT3x_MSB);
   i2c_send_byte(*getBus(), SHT3x_LSB);
-  usleep(1000);
+  usleep(5000);
   i2c_start(*getBus());
   i2c_send_byte(*getBus(), SHT3x_ADDR << 1 | I2C_READ);
 
