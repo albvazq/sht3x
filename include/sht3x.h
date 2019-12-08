@@ -1,5 +1,5 @@
-#ifndef _TCA9548A_H
-#define _TCA9548A_H
+#ifndef _SHT3X_H
+#define _SHT3X_H
 
 #include <soft_i2c.h>
 

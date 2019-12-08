@@ -21,7 +21,7 @@ void readSensor(SHT3X* s) {
   s->temperature = ((175.72 * s->temperature) / 65536.0 ) - 45;
 
   s->humidity = (data[3] << 8) + data[4];
-  s->humidity = ((100 * s->humidity) / 65536.0 )
+  s->humidity = ((100 * s->humidity) / 65536.0 );
 }
 
 #ifdef __cplusplus
